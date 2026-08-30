@@ -44,25 +44,6 @@ The application is intended to preserve the intermediate states and transformati
 
 KnotResearch consists of a React/TypeScript frontend and a Spring Boot backend, with PostgreSQL providing persistent storage.
 
-'''
-┌──────────────────────────┐
-│    React / TypeScript    │
-│         Frontend         │
-└────────────┬─────────────┘
-             │
-             │ REST API
-             ▼
-┌──────────────────────────┐
-│      Spring Boot         │
-│        Backend           │
-└────────────┬─────────────┘
-             │
-       ┌─────┴─────┐
-       ▼           ▼
- PostgreSQL    Mathematical
- / Supabase    Computation
- '''
-
 ## Technology
 
 **Frontend**
